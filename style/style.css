@@ -1,4 +1,20 @@
-.chart {
-  width: 25%;
-  /* border: 2px solid green; */
+td,
+th {
+  vertical-align: middle !important;
+  text-align: center !important;
+}
+
+.input-group {
+  margin: 20px 0px;
+}
+
+svg {
+  height: 150px;
+}
+
+/* SIZING FOR GOOGLE MAP */
+td:first-of-type,
+td:first-of-type > div {
+  height: 200px;
+  width: 250px;
 }
