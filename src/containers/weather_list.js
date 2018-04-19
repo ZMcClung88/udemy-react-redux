@@ -21,7 +21,7 @@ class WeatherList extends Component {
           <Chart data={temps} color="peru" units="F" />
         </td>
         <td>
-          <Chart data={pressures} color="green" units="hPa" />
+          <Chart data={pressures} color="chartreuse" units="hPa" />
         </td>
         <td>
           <Chart data={humidities} color="aqua" units="%" />
