@@ -18,13 +18,13 @@ class WeatherList extends Component {
           <GoogleMap lon={lon} lat={lat} />
         </td>
         <td>
-          <Chart data={temps} color="orange" units="F" />
+          <Chart data={temps} color="peru" units="F" />
         </td>
         <td>
           <Chart data={pressures} color="green" units="hPa" />
         </td>
         <td>
-          <Chart data={humidities} color="black" units="%" />
+          <Chart data={humidities} color="aqua" units="%" />
         </td>
       </tr>
     );
